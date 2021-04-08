@@ -1,0 +1,99 @@
+	body {	
+				//position:relative;
+				background: url(img/图腾.jpg) center center;
+				//background-size: cover;
+			}
+			
+			h1 {
+				top: 10%;
+				text-align: center;
+				text-shadow: 30px 30px 30px #6ce893;
+				color: cornsilk;
+			}
+			
+			h2 {
+				top: 10%;
+				text-shadow: 30px 30px 30px #6ce893;
+				color: #FFF8DC;
+			}h2 {
+				
+				text-shadow: 30px 30px 30px #6ce893;
+				color: #FFF8DC;
+			}
+			.container {
+				top: 43%;
+				width: 960px;
+				height: 450px;
+				margin: 60px auto;
+				position: absolute;
+				
+			}
+
+#float {
+				position: absolute;
+				z-index: 1;
+			}
+			
+			#floatImg {
+				width: 300px;
+				height: 400px;
+			}
+			
+			#floatImg0 {
+				width: 200px;
+				height: 300px;
+			}
+			
+			#floatImg1 {
+				width: 200px;
+				height: 200px;
+			}
+			img {
+				padding: 10px 10px 15px;
+				background: rgba(104, 147, 160, 0.55);
+				border: 3px solid #dddddd;
+				position: absolute;
+				top: 50px;
+				left: 400px;
+				transform: rotate(30deg);
+				transition: 1s;
+				width: 7%;
+			}
+			
+			img:hover {
+				transform: rotate(0deg);
+				transform: scale(0.5);
+				box-shadow: 10px 10px 15px #80dd44
+			}
+			
+			.p1 {
+				left: 250px;
+				top: 30px;
+				width: 150px;
+			}
+			
+			.p2 {
+				left: 550;
+				top: 30px;
+				transform: rotate(-50deg);
+				width: 250px;
+			}
+			
+			.p3 {
+				left: 780px;
+				top: 30px;
+				transform: rotate(50deg);
+				width: 150px;
+			}
+			
+			.p4 {
+				left: 860px;
+				top: 30px;
+				transform: rotate(-50deg);
+				width: 150px;
+			}
+		}
+canvas {
+    cursor: crosshair;
+    display: block;
+}
